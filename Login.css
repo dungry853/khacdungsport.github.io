@@ -1,0 +1,108 @@
+#Main
+{
+    margin:auto;
+    display:block;
+    width: 400px;
+    height:300px;
+    border: 1px solid black;
+    box-shadow: 1px 2px black;
+    background-color: white;
+
+}
+.Title-Login
+{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: black;
+    text-shadow: 1px 2px silver;
+}
+.Main-Login
+{
+    width: 100%;
+    height:100px;
+    margin-left:-10px;
+}
+.Username
+{
+    margin: 0px 50px 5px 50px;
+    align-items: center;
+    display: flex;
+    border: 1px solid silver;
+   width: 320px;
+   height: 35px;
+}
+.Username i
+{
+    margin-left:2px;
+   margin-right:2px;
+}
+.Username label
+{
+   
+    color: red;
+    font-size: 30px;
+    border-right:1px solid silver;
+}
+.Username input
+{
+    margin-left: 10px;
+    font-size: 20px;
+    border: 0;
+}
+.Password
+{
+    margin: 0px 50px 5px 50px;
+    align-items: center;
+    display: flex;
+    border: 1px solid silver;
+   width: 320px;
+   height: 35px;
+}
+.Password i 
+{
+    margin-left:3px;
+    margin-right:5px;
+}
+.Password label
+{
+    text-align: center;
+    font-size: 31px;
+    border-right:1px solid silver;
+}
+.Password input
+{
+    margin-left:10px;
+    font-size: 20px;
+    border:0;
+}
+.Login-Button
+{
+    background-color: #28303e;
+    color:white;
+    width: 323px;
+    height: 40px;
+    margin: 15px 50px 0px 50px;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+.Login-Button:hover 
+{
+    background-color: red;
+}
+.req_pass 
+{
+    margin: 20px 20px 10px 47px;
+    display: block;
+    width: 100%;
+    height: 18px;
+}
+.req_pass a
+{
+    color: navy
+}
+.req_pass a:hover 
+{
+    color: red;
+}

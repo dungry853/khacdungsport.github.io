@@ -1,0 +1,162 @@
+#Main-Register
+{
+    margin:auto;
+    display:block;
+    width: 400px;
+    height:400px;
+    border: 1px solid black;
+    box-shadow: 1px 2px black;
+    background-color: white;
+
+}
+.Title-Register
+{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: black;
+    text-shadow: 1px 2px silver;
+}
+.Main-Register
+{
+    width: 100%;
+    height:100px;
+    margin-left:-10px;
+}
+.Register-Button
+{
+    background-color: #28303e;
+    color:white;
+    width: 323px;
+    height: 40px;
+    margin: 15px 50px 0px 50px;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+.Register-Button:hover
+{
+    background-color: red;
+}
+.Name
+{
+    margin: 0px 50px 5px 50px;
+    align-items: center;
+    display: flex;
+    border: 1px solid silver;
+   width: 320px;
+   height: 35px;
+}
+.Name i
+{
+    margin-left:2px;
+   margin-right:2px;
+}
+.Name label
+{
+   
+    color: red;
+    font-size: 20px;
+    border-right:1px solid silver;
+}
+.Name input
+{
+    margin-left: 10px;
+    font-size: 15px;
+    border: 0;
+}
+.User
+{
+    margin: 0px 50px 5px 50px;
+    align-items: center;
+    display: flex;
+    border: 1px solid silver;
+   width: 320px;
+   height: 35px;
+}
+.User i
+{
+    margin-left:2px;
+   margin-right:2px;
+}
+.User label
+{
+   
+    color: red;
+    font-size: 20px;
+    border-right:1px solid silver;
+}
+.User input
+{
+    margin-left: 10px;
+    font-size: 15px;
+    border: 0;
+}
+.Pass
+{
+    margin: 0px 50px 5px 50px;
+    align-items: center;
+    display: flex;
+    border: 1px solid silver;
+   width: 320px;
+   height: 35px;
+}
+.Pass i
+{
+    margin-left:2px;
+   margin-right:2px;
+}
+.Pass label
+{
+   
+    color: red;
+    font-size: 20px;
+    border-right:1px solid silver;
+}
+.Pass input
+{
+    margin-left: 10px;
+    font-size: 15px;
+    border: 0;
+}
+.Sur
+{
+    margin: 0px 50px 5px 50px;
+    align-items: center;
+    display: flex;
+    border: 1px solid silver;
+   width: 320px;
+   height: 35px;
+}
+.Sur i
+{
+    margin-left:2px;
+   margin-right:2px;
+}
+.Sur label
+{
+   
+    color: red;
+    font-size: 20px;
+    border-right:1px solid silver;
+}
+.Sur input
+{
+    margin-left: 10px;
+    font-size: 15px;
+    border: 0;
+}
+.back-login
+{
+    margin-top:20px;
+    margin-left:50px;
+    font-size: 15px;
+}
+.back-login a
+{
+    color: black;
+}
+.back-login a:hover
+{
+    color: red;
+}

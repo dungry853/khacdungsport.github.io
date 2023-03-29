@@ -1,0 +1,365 @@
+*
+{
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+}
+#Header
+{
+    display:flex;
+    width: 100%;
+    height:100px;
+    justify-content: space-between;
+    background-color: rgb(10, 10, 10);
+    border-bottom: 1px solid white;
+    margin-bottom: 10px;
+}
+.Hotline
+{
+    display: flex;
+    background-color: transparent;
+    
+    color: white;
+    align-items: center;
+    padding-left: 10px;
+    padding-right:10px;
+    width: 200px;
+    height:98px;
+}
+.Logo img
+{
+    width: 200px;
+    height: 100px;
+    align-items: center;
+   
+}
+.Searching
+{
+    color: white;
+    align-items: center;
+    display: flex;
+}
+.Searching input
+{
+    width: 600px;
+    height:50px;
+    border-radius: 10px;
+}
+.Login-Register
+{
+    color: white;
+    align-items: center;
+    display: flex;
+}
+.GioHang
+{
+    color: white;
+    align-items: center;
+    display: flex;
+    padding-right:10px;
+}
+.GioHang a
+{
+    color: white;
+}
+.GioHang a:hover
+{
+    color:aquamarine;
+}
+.Login-Register a:hover
+{
+    color:aquamarine;
+}
+.Login-Register a
+{
+    color:white;
+}
+#Menu
+{
+    
+    background-color:antiquewhite;
+    height: 50px;
+    margin-bottom: 10px;
+}
+.Menu-Father
+{
+    display: flex;
+    justify-content: space-between;
+
+}
+.Son a
+{
+    color: black;
+}
+.Son
+{
+    
+    list-style: 40px;
+    background-color:antiquewhite;
+    padding: 10px;
+}
+.Son:hover
+{
+    background-color: red;
+    height: 30px;
+    
+}
+#Banner img
+{
+    width:100%;
+    margin-bottom: 50px;
+}
+#Container
+{
+    width: 750px;
+    height: 136px;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.fas
+{
+    color: red;
+}
+.Ctn
+{
+    display: block;
+    text-align: center;
+    width: 200px;
+    margin-right:100px;
+}
+.Icon-shipping
+{
+    margin-bottom:10px;
+}
+.Title-shipping
+{
+    width: 200px;
+    text-align: center;
+    
+}
+.Content-shipping
+{
+    color: silver;
+    width: 200px;
+    text-align: center;
+}
+.Icon-guarantee
+{
+    width: 200px;
+    margin-top:-10px;
+    margin-bottom:10px;
+}
+.Title-guarantee
+{
+    width: 200px;
+    text-align: center;
+}
+.Content-guarantee
+{
+    width: 200px;
+    color: silver;
+    text-align: center;
+}
+.Icon-changeSize
+{
+    width: 200px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.Title-changleSize
+{
+    width: 200px;
+    text-align: center;
+}
+.Content-changeSize
+{
+    width: 200px;
+    color: silver;
+    text-align: center;
+}
+.Icon-orderOnline
+{
+    width: 200px;
+    margin-top: -25px;
+    margin-bottom: 10px;
+}
+.Title-oderOnline
+{
+    width: 200px;
+    text-align: center;
+}
+.Content-oderOnline
+{
+    width: 200px;
+    color: silver;
+    text-align: center;
+}
+#Left
+{
+    width:200px;
+    float: left;
+    border: 1px;
+}
+#Content
+{
+    width: 1100px;
+    float: left;
+    border:0;
+}
+.List-Product
+{
+    margin-top: 50px;
+    border-top: 1px solid;
+    text-align: center;
+}
+.List-Title-Product
+{ 
+    font-size:30px;
+    font-weight: bold;
+    font-style: italic;
+}
+.List-Content-Product
+{
+    font-size:20px;
+    margin-bottom: 20px;
+}
+.img-Product img
+{
+    width:1100px;
+}
+
+.Product
+{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+.Product-Son
+{
+    height: 380px;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right: 30px;
+    box-shadow: 1px 2px black;
+}
+.Product-Img img
+{
+    width:250px;
+    display: block;
+    transition: .5s ease;
+    margin-bottom:5px;
+}
+
+.Product-Img img:hover
+{
+    opacity:0.3;
+}
+.Product-Title
+{
+    color: black;
+    font-size: 16px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+.Product-Content
+{
+    border-bottom: 1px solid silver;
+    text-align: left;
+    padding-left: 15px;
+}
+.Product-Price
+{
+    font-size: 20px;
+    color: red;
+    text-align: left;
+    margin-top: 10px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+.More
+{
+    display: block;
+    width:200px;
+    margin-left:480px;
+    margin-top:-40px;
+
+}
+.Infor:hover
+{
+    background-color: red;
+    color: white;
+}
+.Infor
+{
+    height: 40px;
+    width: 120px;
+    background-color: #58b3f0;
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    padding-left: 30px;
+    text-transform: uppercase;
+}
+#Right
+{
+    float:right;
+    width: 200px;
+    border: 0;
+}
+#Footer
+{
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    justify-content:space-between;
+    margin-top: 30px;
+}
+.Content-S
+{
+    padding-left: 20px;
+    margin-top: 50px;
+    margin-right: 50px;
+    
+}
+.Content-S1
+{
+    color: red;
+    font-size:20px;
+    margin-bottom:10px;
+}
+.Content-S2
+{
+    color: white;
+}
+.Content-S2 a
+{
+    color: white;
+}
+.Content-S2:hover
+{
+    color:aquamarine;
+}
+.Content-S2 a:hover
+{
+    color:aquamarine;
+}
+.Link-List
+{
+    margin-top:10px;
+    display:inline-flex;
+}
+.ICON img
+{
+    width: 30px;
+    height: 30px;
+}

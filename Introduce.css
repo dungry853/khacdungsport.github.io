@@ -1,0 +1,61 @@
+#Main-Introduce
+{
+    margin:auto;
+    display: block;
+    height: 100%px;
+    width: 1200px;
+    border: 1px solid silver;
+    box-shadow: 1px 2px black;
+    padding: 10px;
+} 
+.Title-Intro
+{
+    font-size: 25px;
+    margin: 10px 5px 10px 0px;
+}
+.Intro 
+{
+    font-size: 40px;
+    font-style: italic;    
+    text-decoration: underline;
+    margin: 0px 0px 10px 0px;
+}
+.Target-Title
+{
+    font-size: 40px;
+    font-style: italic;    
+    text-decoration: underline;
+    margin: 0px 0px 10px 0px;
+}
+.Target-Content
+{
+    margin: 0px 0px 10px 0px;
+}
+.Intro-Pan
+{
+    width: 400px;
+    height: 300px;
+}
+.Video-Intro iframe
+{
+    width: 100%;
+    margin: 10px 0px 20px 0px;
+}
+
+.Work
+{
+    font-size: 40px;
+    font-style: italic;    
+    text-decoration: underline;
+    margin: 0px 0px 10px 0px;
+    text-align: center;
+}
+.Work-Content
+{
+    font-size: 20px;
+    text-align: center;
+}
+.Work-Content img
+{
+    margin: 10px 0px 10px 0px
+}

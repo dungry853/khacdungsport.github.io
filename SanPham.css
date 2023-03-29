@@ -1,0 +1,124 @@
+.LINK-Product
+{
+    color: gray;
+    height: 20px;
+    width: 100%;
+}
+.Left-Content
+{
+    float: left;
+    margin-right:30px;
+}
+.Main-Content
+{
+    float: left;
+}
+
+.Pan
+{
+    margin-top: 30px;
+    width: 200px;
+    height: 180px;
+    border: 1px solid gray;
+    padding: 10px;
+    box-shadow: 1px 2px silver;
+    background-color:ghostwhite;
+    margin-bottom: 30px;
+}
+.Pan-title
+{
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+    width: 100%;
+}
+.Pan-checkbox
+{
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+.Price
+{
+    margin-top: 30px;
+    width: 200px;
+    height: 250px;
+    border: 1px solid gray;
+    padding: 10px;
+    box-shadow: 1px 2px silver;
+    background-color:ghostwhite;
+    margin-bottom: 30px;
+}
+.Price-title
+{
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+    width: 100%;
+}
+.Price-checkbox
+{
+    margin-top: 25px;
+    font-size: 18px;
+}
+.Shoes-Size
+{
+    margin-top: 30px;
+    width: 200px;
+    height: 180px;
+    border: 1px solid gray;
+    padding: 10px;
+    box-shadow: 1px 2px silver;
+    background-color:ghostwhite;
+    margin-bottom: 30px;
+}
+.Shoes-Size-Title
+{
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+.Size-checkbox-left
+{
+    float: left;
+    padding-left: 20px;
+    font-size: 18px;
+}
+.Size-checkbox-right
+{
+    float:right;
+    padding-right:20px;
+    font-size: 18px;
+}
+.Title-Product
+{
+    
+    width: 800px;
+    height: 30px;
+    border: 1px solid silver;
+    display: flex;
+    margin-top:30px;
+    background-color: ghostwhite;
+    padding: 10px;
+    box-shadow: 1px 2px silver;
+    margin-bottom: 30px;
+}
+.Title-group
+{
+    position: relative;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: bold;
+}
+.Title-dropdown
+{
+    position: relative;
+    left:280px;
+    top:5px;
+
+}
