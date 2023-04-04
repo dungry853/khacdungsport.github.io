@@ -1,0 +1,153 @@
+/*PC*/
+@media (min-width: 1024px)
+{
+    .menu-icon
+    {
+        display: none;
+    }
+}
+/*Tablet*/
+@media (min-width: 740px) and (max-width: 1023px)
+{
+    .menu-icon
+    {
+        display: none;
+    }
+}
+/* Mobile */
+@media (max-width: 740px)
+{
+    
+    #Header
+    {
+        width: 100%;
+        flex-wrap: nowrap;
+        position: sticky;
+        position: -webkit-sticky;
+        top:0;
+        
+    }
+    .Logo img
+    {
+        width: 180px;
+    }
+    #Content
+    {
+        width: 100%;
+    }
+    
+    #Right
+    {
+        width: 0px;
+    }
+    #Left
+    {
+        width: 0px;
+    }
+    
+    
+    #Container 
+    {
+        display: none;
+    
+    }
+
+    .Product
+    {
+        
+        grid-template-columns: repeat(2,minmax(100px,1fr));
+    }
+    .More
+    {
+        left:25%;
+    }
+    .Product-Son
+    {
+        width: 100%;
+    }
+    .Product-Son img
+    {
+        width: 100%;
+    }
+    
+
+    
+    .img-Product img 
+    {
+        width: 100%;
+    }
+
+    .Menu-Father
+    {
+        display: none;
+    }
+
+    #Header div 
+    {
+        flex-basis: 100%;
+      
+    }
+    .menu-icon
+    {
+        display:block;
+    }.Searching
+    {
+        font-size: 18px;
+        top: 5px;
+    }
+    .Searching input 
+    {
+        display: none;
+    }
+    .Hotline
+    {
+        display: none;
+    }
+    .Login-Register p
+    {
+        display: none;
+        
+    }
+    .Login-Register
+    {
+        position: relative;
+        top: 3px;
+        font-size: 18px;
+    }
+    .GioHang p
+    {
+        display: none;
+        
+    }
+    .GioHang
+    {
+        position: relative;
+        font-size: 18px;
+        top: 3px;
+    }
+    #Banner
+    {
+        width: 100%;
+        height: 80%;
+    }
+    #Footer
+    {
+        display: block;
+        height: fit-content;
+        width: 100%;
+    }
+}
+
+/*Menu-Icon*/
+.menu-icon
+{
+    font-size: 18px;
+    position: relative;
+    align-items: center;
+    top:42px
+}
+#show-menu
+{
+    
+    display: none;
+}
