@@ -1,17 +1,32 @@
+#Content
+{
+    display: grid;
+    width: 100%;
+    height: fit-content;
+    grid-template-columns: repeat(auto-fit);
+    grid-area: main;
+    grid-template-areas: 
+    "Link Link"
+    "sidebar main-c";
+}
 .LINK-Product
 {
     color: gray;
     height: 20px;
     width: 100%;
+    grid-area: Link;
+    
 }
 .Left-Content
 {
-    float: left;
+
     margin-right:30px;
+    grid-area: sidebar;
+    width: fit-content;
 }
 .Main-Content
 {
-    float: left;
+    grid-area: main-c;
 }
 
 .Pan
@@ -98,9 +113,8 @@
 }
 .Title-Product
 {
-    
-    width: 800px;
-    height: 30px;
+    position: relative;
+    width: 100%;
     border: 1px solid silver;
     display: flex;
     margin-top:30px;
@@ -118,8 +132,8 @@
 }
 .Title-dropdown
 {
-    position: relative;
-    left:280px;
-    top:5px;
+    position: absolute;
+    left:600px;
+    top:15px;
 
 }

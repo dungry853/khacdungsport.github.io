@@ -125,7 +125,6 @@
 }
 .Son a
 {
-    
     color: black;
 }
 .Son
@@ -134,9 +133,8 @@
     line-height: 40px;
     list-style: 40px;
     padding: 10px;
-    
 }
-.Son:hover
+.Son:hover 
 {
     background-color: red;
     height:fit-content;
@@ -286,8 +284,9 @@
     display: grid;
     margin-top: 10px;
     margin-bottom: 100px;
-    grid-template-columns: repeat(4,minmax(200px,1fr));
-   
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    column-gap: 20px;
+    row-gap: 20px;
 }
 .Product-Son
 {
@@ -334,11 +333,13 @@
 }
 .More
 {
-    position: absolute;
-    display: block;
-    width:200px;
-    left: 43%;
-    margin-top:-40px;
+    display: flex;
+    width:100%;
+    margin-top:-60px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right:10px;
 }
 .Infor:hover
 {
@@ -350,9 +351,9 @@
     height: 40px;
     width: 130px;
     background-color: #58b3f0;
-    color: black;
-    border: 1px solid black;
-    border-radius: 10px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 200px;
     align-items: center;
     display: flex;
     padding-left: 18px;

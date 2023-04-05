@@ -9,15 +9,171 @@
 /*Tablet*/
 @media (min-width: 740px) and (max-width: 1023px)
 {
-    .menu-icon
+     /*Header*/
+     #Header
+     {
+         width: 100%;
+         flex-wrap: nowrap;
+         position: sticky;
+         position: -webkit-sticky;
+         top:0;
+         
+     }
+     .Menu-Father
+     {
+         display: none;
+         font-weight: bold;
+     }
+     .Son 
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+    }
+     #Header div 
+     {
+         flex-basis: 100%;
+       
+     }
+     .Logo img
+     {
+         width: 180px;
+     }
+     .menu-icon
+     {
+         display:block;
+     }
+     #show-menu
     {
         display: none;
     }
+    #show-menu:checked + #Menu .Menu-Father
+    {
+       transition: 1s ease;
+       animation-delay: 2s;
+        display: block;
+    }
+     .Searching 
+     {
+         font-size: 18px;
+        top:5px;
+        right:10px;
+     }
+     .Searching input 
+     {
+         display: none;
+     }
+     .Hotline
+     {
+         display: none;
+     }
+     .Login-Register p
+     {
+         display: none;
+         
+     }
+     .Login-Register
+     {
+         position: relative;
+         top: 5px;
+         font-size: 18px;
+     }
+     .GioHang p
+     {
+         display: none;
+         
+     }
+     .GioHang
+     {
+         position: relative;
+         font-size: 18px;
+         top: 5px;
+     }
+  
+ 
+     /*  Banner */
+     
+     #Banner
+     {
+         width: 100%;
+     }
+     #Banner img
+     {
+        width: 100%;
+   
+        margin-bottom: 0px;
+     }
+     
+     /*Content*/
+     #Content
+     {
+         width: 100%;
+     }
+     /*Right*/
+     #Right
+     {
+         width: 0px;
+     }
+     /*Left*/
+     #Left
+     {
+         width: 0px;
+     }
+     
+     /*Container*/
+     #Container 
+     {
+         display: none;
+     
+     }
+     /*Product*/
+     .Product
+     {
+         
+         grid-template-columns: repeat(2,minmax(100px,1fr));
+     }
+     .More
+     {
+         left:3px;
+     }
+     .Product-Son
+     {
+         width: 100%;
+     }
+     .Product-Son img
+     {
+         width: 100%;
+     }
+     
+ 
+     
+     .img-Product img 
+     {
+         width: 100%;
+     }
+ 
+     /*Footer*/
+     #Footer
+     {
+         display: block;
+         height: fit-content;
+         width: 100%;
+     }
+    /*SanPham*/
+    .Title-dropdown {
+        position: relative;
+        /* left: 280px; */
+        left: 10px;
+        top: 5px;
+    }
 }
+
+
 /* Mobile */
 @media (max-width: 740px)
 {
-    
+    /*Header*/
     #Header
     {
         width: 100%;
@@ -27,59 +183,19 @@
         top:0;
         
     }
-    .Logo img
-    {
-        width: 180px;
-    }
-    #Content
-    {
-        width: 100%;
-    }
-    
-    #Right
-    {
-        width: 0px;
-    }
-    #Left
-    {
-        width: 0px;
-    }
-    
-    
-    #Container 
-    {
-        display: none;
-    
-    }
-
-    .Product
-    {
-        
-        grid-template-columns: repeat(2,minmax(100px,1fr));
-    }
-    .More
-    {
-        left:25%;
-    }
-    .Product-Son
-    {
-        width: 100%;
-    }
-    .Product-Son img
-    {
-        width: 100%;
-    }
-    
-
-    
-    .img-Product img 
-    {
-        width: 100%;
-    }
-
+  
     .Menu-Father
     {
         display: none;
+            font-weight: bold;
+            
+    }
+    .Son 
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
     }
 
     #Header div 
@@ -87,13 +203,29 @@
         flex-basis: 100%;
       
     }
+    .Logo img
+    {
+        width: 180px;
+    }
     .menu-icon
     {
         display:block;
-    }.Searching
+        
+    }
+    #show-menu
+    {
+        display: none;
+    }
+    #show-menu:checked + #Menu .Menu-Father
+    {
+       transition: 0.5s ease;
+        display: block;
+    }
+    .Searching 
     {
         font-size: 18px;
-        top: 5px;
+       top:5px;
+       right:10px;
     }
     .Searching input 
     {
@@ -111,7 +243,7 @@
     .Login-Register
     {
         position: relative;
-        top: 3px;
+        top: 5px;
         font-size: 18px;
     }
     .GioHang p
@@ -123,28 +255,118 @@
     {
         position: relative;
         font-size: 18px;
-        top: 3px;
+        top: 5px;
+        margin-right:20px;
     }
+    /*  Banner */
+    
     #Banner
     {
         width: 100%;
-        height: 80%;
+       
     }
+    #Banner img 
+    {
+        width: 100%;
+        margin-bottom: 0px;
+    }
+
+    /*Content*/
+    #Content
+    {
+        width: 100%;
+    }
+    #Main-Introduce
+    {
+        width: 100%;
+    }
+    #Main-Introduce img 
+    {
+        width: 100%;
+    }
+
+    /*Right*/
+    #Right
+    {
+        width: 0px;
+    }
+    /*Left*/
+    #Left
+    {
+        width: 0px;
+    }
+    
+    /*Container*/
+    #Container 
+    {
+        display: none;
+    
+    }
+    /*Product*/
+    .Product
+    {
+        
+        grid-template-columns: repeat(2,minmax(100px,1fr));
+    }
+    .More
+    {
+        left:3px;
+    }
+    .Product-Son
+    {
+        width: 100%;
+    }
+    .Product-Son img
+    {
+        width: 100%;
+    }
+    
+
+    
+    .img-Product img 
+    {
+        width: 100%;
+    }
+
+    /*Footer*/
     #Footer
     {
         display: block;
         height: fit-content;
         width: 100%;
     }
+    
+      /*Login*/
+      #Main div
+      {
+          width: 100%;
+      }
+
+    /*SanPham*/
+    .Title-dropdown {
+
+        display: flex;
+        left: 0px;
+        top: 80px;
+    }
+    #Title-dropdown
+    {
+            width: 50%;
+    }
 }
 
 /*Menu-Icon*/
 .menu-icon
 {
-    font-size: 18px;
-    position: relative;
+    font-size: 20px;
+   
+    right:0;
+    
+    padding-right: 10px;
+    position:absolute;
     align-items: center;
-    top:42px
+    top:42px;
+    cursor: pointer;
 }
 #show-menu
 {
