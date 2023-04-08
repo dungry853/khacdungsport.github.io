@@ -3,8 +3,8 @@
     display: grid;
     width: 100%;
     height: fit-content;
-    grid-template-columns: repeat(auto-fit);
     grid-area: main;
+    grid-template-columns: 0.2fr 1fr;
     grid-template-areas: 
     "Link Link"
     "sidebar main-c";
@@ -23,6 +23,7 @@
     margin-right:30px;
     grid-area: sidebar;
     width: fit-content;
+    
 }
 .Main-Content
 {
