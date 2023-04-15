@@ -4,39 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trang Đăng Nhập</title>
-    <link rel="stylesheet" href="SanPham.css">
+    <title>Giỏ hàng của bạn</title>
     <link rel="stylesheet" href="TrangChu.css">
-    <link rel="stylesheet" href="Login.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+
+      <link rel="stylesheet" href="https://fonts.google.com/">
     <link rel="stylesheet" href="Responsive.css">
+    <link rel="stylesheet" href="cart.css">
 </head>
 <body>
-    <div id="Header">
+    <div id="TrangChu" >
+        
+        <div id="Header">
          
            
-        <div class="Logo"><a href="index.html"> <img src="https://smtsports.com/wp-content/uploads/2020/03/pan.jpg" alt=""></a></div>
-        <input type="checkbox" id="show-search">
+            <div class="Logo"><a href="index.html"> <img src="https://smtsports.com/wp-content/uploads/2020/03/pan.jpg" alt=""></a></div>
+            <input type="checkbox" id="show-search">
             <div class="Searching">
                 <input type="text" placeholder="Bạn đang tìm kiếm gì đấy...">&ensp; <label for="show-search" class="Searching"><i class="fas fa-search"></i></label>
                 <input type="text" placeholder="Bạn đang tìm kiếm gì đấy..." class="OfSearch-Icon">
             </div>
-        <div class="Hotline"> <i class="fas fa-phone-square-alt"></i><p> &ensp;Hỗ trợ: 0123456789</p> </div>
-        <div class="Login-Register">
-          <a href="Login.html"><i class="fas fa-user"></i>&ensp; <p>Đăng nhập</p></a>  
-        </div>
-        <div class="GioHang">
-           <a href="cart.html"> <i class="fas fa-shopping-cart"></i>&ensp; <p>Giỏ hàng</p> </a>
-        </div>
-        
+            <div class="Hotline"> <i class="fas fa-phone-square-alt"></i><p> &ensp;Hỗ trợ: 0123456789</p> </div>
+            <div class="Login-Register">
+              <a href="Login.html"><i class="fas fa-user"></i>&ensp; <p>Đăng nhập</p></a>  
+            </div>
+            <div class="GioHang">
+               <a href="#"> <i class="fas fa-shopping-cart"></i>&ensp; <p>Giỏ hàng</p> </a>
+            </div>
             <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
-            
-        
-    </div>
-    <input type="checkbox" id="show-menu">
+          
+        </div>
+        <input type="checkbox" id="show-menu">
         <div id="Menu">
             <ul class="Menu-Father">
                 <li class="Son"><a href="index.html">TRANG CHỦ</a></li>
@@ -51,26 +49,60 @@
 
             </ul>
         </div>
-        
-        <div id="Main">
-           <H1 class="Title-Login">Đăng Nhập</H1>
-           <div class="Main-Login">
-             <div class="Username">
-                <label for="Username"><i class="far fa-envelope"></i></label>
-                <input type="text" placeholder="Username">
-             </div>
-             <div class="Password">
-                <label for="Password"><i class="fas fa-lock"></i></label>
-                <input type="password" placeholder="Password">
-             </div>
-             <input type="submit" class="Login-Button" value="Đăng Nhập"></input>
 
-                <div class="req_pass"><a href="#">Quên mật khẩu?</a> hoặc <a href="Register.html">Đăng ký</a></div>
-           </div>
-           
-            
-            
+       
+       
+        
+        <div id="Content-shop">
+            <p class="link-shop">Trang Chủ > Sản Phẩm</p>
+            <div class="border-shop">
+              <h1 class="title-shop">Giỏ hàng</h1>
+            <table border="1" cellspacing="0" class="box">
+                <tr>
+                    <th></th>
+                    <th>Sản phẩm</th>
+                    <th>Đơn giá</th>
+                    <th>Số lượng</th>
+                    <th>Thành Tiền</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td><img src="https://product.hstatic.net/1000169410/product/dendo-1_1cdb25a9ce5c45e59a0c34f9061e0a56_small.jpg" alt=""></td>
+                    <td><p class="title-p">Giày Performax 8</p><p class="size-p">dendo / 39</p></td>
+                    <td>620,000đ</td>
+                    <td><input type="text" value="1"></td>
+                    <td>620,000đ</td>
+                    <td><i class="fas fa-trash-alt"></i></td>
+                </tr>
+                <tr>
+                    <td><img src="https://product.hstatic.net/1000169410/product/bac_3fd265dee16d4bcf90dd0e34d10cfbec_small.jpg" alt=""></td>
+                    <td><p class="title-p">Giày Pan Tango II đế Đinh (TF)</p><p class="size-p">Bạc / 39</p></td>
+                    <td>580,000đ</td>
+                    <td><input type="text" value="1"></td>
+                    <td>580,000đ</td>
+                    <td><i class="fas fa-trash-alt"></i></td>
+                </tr>
+            </table>
+            <div class="clearfix">
+                <button class="continue-shopping">MUA TIẾP</button>
+                <button class="update-shopping">CẬP NHẬT GIỎ HÀNG</button>
+            </div>
+            </div>
+            <div class="boder-purchase">
+                <h1 class="title-purchase">Đơn hàng</h1>
+                <div class="purchase-box">
+                    <div class="purchase-label">
+                        <p class="left">Tổng Tiền</p>
+                        <p class="right">1,200,000đ</p>
+                    </div>
+                    <div class="purchase-button-box">
+                        <button class="purchase-button">THANH TOÁN</button>
+                    </div>
+                  
+                </div>
+            </div>
         </div>
+        
         <div id="Footer">
             <ul class="Content-S">
                 <li class="Content-S1">

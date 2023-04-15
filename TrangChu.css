@@ -68,6 +68,8 @@
     height:50px;
     border-radius: 10px;
 }
+.OfSearch-Icon
+{display: none;}
 .Searching ::placeholder
 {
     padding: 5px;
@@ -114,6 +116,7 @@
     width: 100%;
     box-shadow: 1px 2px silver;
     
+    
 }
 .Menu-Father
 {
@@ -125,6 +128,7 @@
 }
 .Son a
 {
+    font-weight: 600;
     color: black;
 }
 .Son
@@ -143,13 +147,40 @@
 #Banner
 {
     grid-area: banner;
-   
+    overflow: hidden;
+    margin: 0 auto;
+    width: 100%;
 }
 #Banner img
 {
     
+
     width:100%;
     margin-bottom: 50px;
+}
+.slide-wrapper
+{
+    display: flex;
+    width: 500%;
+    -webkit-animation: slide 15s ease infinite;
+}
+.slide 
+{
+    width: 100%;
+    float: left;
+    
+}
+@-webkit-keyframes slide 
+{
+    0% {margin-left: 0%;}
+    10% {margin-left: -100%;}
+    20% {margin-left: -100%;}
+    30% {margin-left: -200%;}
+    40% {margin-left: -200%;}
+    60% {margin-left: -300%;}
+    70% {margin-left: -400%;}
+    
+    
 }
 #Container
 {

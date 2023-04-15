@@ -44,9 +44,20 @@
      {
          display:block;
      }
+     #show-search
+     {
+         display: none;
+     }
      #show-menu
     {
         display: none;
+    }
+    #show-search:checked + .Searching .OfSearch-Icon
+    {
+        display: block;
+        position: absolute;
+        top:70px;
+        width: 200px;
     }
     #show-menu:checked + #Menu .Menu-Father
     {
@@ -167,6 +178,42 @@
         left: 10px;
         top: 5px;
     }
+    .Pan-title label 
+    {
+        position: absolute;
+        left: 170px;
+        width: fit-content;
+    }
+    .Price-title label 
+    {
+        position: absolute;
+        left: 170px;
+        width: fit-content;
+    }
+     /* Shop */
+    
+    /* Shop */
+   div#Content-shop
+   {
+       padding-right:0px;
+       padding-left:0px;
+       grid-area: main;
+       grid-template-areas: 
+       "title"
+       "giohang"
+       "tongtien";
+       
+   }
+   
+   div.purchase-box
+   {
+       width: 507px;
+   }
+   .boder-purchase
+   {
+       margin:auto;
+       margin-left: 0px;
+   }
 }
 
 
@@ -216,9 +263,12 @@
     {
         display: none;
     }
-    #show-search:checked + #Header .Searching input 
+    #show-search:checked + .Searching .OfSearch-Icon
     {
         display: block;
+        position: absolute;
+        top:70px;
+        width: 110px;
     }
     #show-menu
     {
@@ -233,8 +283,9 @@
     .Searching 
     {
         font-size: 18px;
-       top:5px;
+       top:3px;
        right:10px;
+
     }
     .Searching input 
     {
@@ -366,6 +417,22 @@
     {
             width: 50%;
     }
+      .Pan-title label 
+    {
+    position: absolute;
+    left: 170px;
+    width: fit-content;
+    }
+    .Price-title label 
+    {
+    position: absolute;
+    left: 170px;
+    width: fit-content;
+    }
+    .Pan 
+    {
+        
+    }
 
     /*Login*/
     
@@ -401,6 +468,28 @@
     .Register-Button 
     {
         margin-right: 30px;
+    }
+
+    /* Shop */
+   div#Content-shop
+    {
+        padding-right:0px;
+        padding-left:0px;
+        grid-area: main;
+        grid-template-areas: 
+        "title"
+        "giohang"
+        "tongtien";
+        
+    }
+    
+    div.purchase-box
+    {
+        width: 470px;
+    }
+    .boder-purchase
+    {
+        margin:auto;
     }
 }
 

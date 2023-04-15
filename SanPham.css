@@ -29,7 +29,58 @@
 {
     grid-area: main-c;
 }
-
+#show-Pan
+{
+    display: none;
+}
+.Pan-title label 
+{
+    position: absolute;
+    left: 390px;
+    width: fit-content;
+}
+#show-Pan:checked + .Pan .Pan-checkbox 
+{
+    display: none;
+}
+#show-Pan:checked ~ .Pan
+{
+    height: fit-content;
+}
+#show-Price
+{
+    display: none;
+}
+.Price-title label 
+{
+    position: absolute;
+    left: 390px;
+    width: fit-content;
+}
+#show-Price:checked + .Price .Price-checkbox 
+{
+    display: none;
+}
+#show-Price:checked ~ .Price
+{
+    height: fit-content;
+}
+#show-Shoes-Size
+{
+    display: none;
+}
+#show-Shoes-Size:checked + .Shoes-Size .Size-checkbox-left
+{
+    display: none;
+}
+#show-Shoes-Size:checked + .Shoes-Size .Size-checkbox-right
+{
+    display: none;
+}
+#show-Shoes-Size:checked ~ .Shoes-Size
+{
+    height: fit-content;
+}
 .Pan
 {
     margin-top: 30px;
@@ -37,9 +88,11 @@
     height: 180px;
     border: 1px solid gray;
     padding: 10px;
+    display: block;
     box-shadow: 1px 2px silver;
     background-color:ghostwhite;
     margin-bottom: 30px;
+   
 }
 .Pan-title
 {
@@ -51,7 +104,10 @@
 }
 .Pan-checkbox
 {
+    position: absolute;
     display:block;
+    width: fit-content;
+    height: fit-content;
     margin-top: 25px;
     font-size: 18px;
 }
@@ -60,7 +116,7 @@
 {
     margin-top: 30px;
     width: 200px;
-    height: 250px;
+    height: 260px;
     border: 1px solid gray;
     padding: 10px;
     box-shadow: 1px 2px silver;
@@ -83,8 +139,8 @@
 .Shoes-Size
 {
     margin-top: 30px;
-    width: 200px;
-    height: 180px;
+    width: 210px;
+    height: 210px;
     border: 1px solid gray;
     padding: 10px;
     box-shadow: 1px 2px silver;

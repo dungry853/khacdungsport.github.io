@@ -16,15 +16,17 @@
          
            
             <div class="Logo"><a href="index.html"> <img src="https://smtsports.com/wp-content/uploads/2020/03/pan.jpg" alt=""></a></div>
+            <input type="checkbox" id="show-search">
             <div class="Searching">
-                <input type="text" placeholder="Bạn đang tìm kiếm gì đấy...">&ensp; <i class="fas fa-search"></i>
+                <input type="text" placeholder="Bạn đang tìm kiếm gì đấy...">&ensp; <label for="show-search" class="Searching"><i class="fas fa-search"></i></label>
+                <input type="text" placeholder="Bạn đang tìm kiếm gì đấy..." class="OfSearch-Icon">
             </div>
             <div class="Hotline"> <i class="fas fa-phone-square-alt"></i><p> &ensp;Hỗ trợ: 0123456789</p> </div>
             <div class="Login-Register">
               <a href="Login.html"><i class="fas fa-user"></i>&ensp; <p>Đăng nhập</p></a>  
             </div>
             <div class="GioHang">
-               <a href="#"> <i class="fas fa-shopping-cart"></i>&ensp; <p>Giỏ hàng</p> </a>
+               <a href="cart.html"> <i class="fas fa-shopping-cart"></i>&ensp; <p>Giỏ hàng</p> </a>
             </div>
            
                 <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
@@ -52,10 +54,12 @@
                 Trang chủ  >  Danh mục  >  Giày Sân Futsal (IC)
             </div>
             <div class="Left-Content">
+                <input type="checkbox" id="show-Pan">
                 <div class="Pan">
                     <div class="Pan-title">
-                        Pan <hr>
+                        Pan <label for="show-Pan" class="Pan-title"><i class="fas fa-caret-down"></i></label><hr>
                     </div>
+                 
                     <div class="Pan-checkbox">
                         <input type="checkbox" name="Khac" id=""> Khác <br>
                         <input type="checkbox" name="Pan" id=""> Pan <br>
@@ -63,9 +67,10 @@
                         <input type="checkbox" name="PhuKien" id=""> Phụ Kiện <br>
                     </div>
                 </div>
+                <input type="checkbox" id="show-Price">
                 <div class="Price">
                     <div class="Price-title">
-                        Giá
+                        Giá <label for="show-Price" class="Price-title"><i class="fas fa-caret-down"></i></label>
                         <hr>
                     </div>
 
@@ -77,8 +82,9 @@
                         <input type="radio" name="Price" value="LonHon2000"> Lớn Hơn 2,000,000đ <br>
                     </div>
                 </div>
+                <input type="checkbox" id="show-Shoes-Size">
                 <div class="Shoes-Size">
-                    <div class="Shoes-Size-Title">Kích Thước <hr> </div>
+                    <div class="Shoes-Size-Title">Kích Thước <label for="show-Shoes-Size" class="Shoes-Size-Title"><i class="fas fa-caret-down"></i></label> <hr> </div>
                     <div class="Size-checkbox-left">
                         <input type="checkbox">&ensp;35 <br>
                         <input type="checkbox">&ensp;36 <br>

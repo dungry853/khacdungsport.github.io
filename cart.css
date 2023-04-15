@@ -1,0 +1,132 @@
+.link-shop
+{
+    columns: silver;
+    margin-top: 10px;
+    grid-area: title;
+}
+#Content-shop
+{
+   
+    display: grid;
+    padding-left: 25px;
+    height: fit-content;
+    
+    grid-template-areas: 
+    "title title"
+    "giohang thanhtien"
+    ;
+
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.box
+{
+    width: 70%;
+    margin-top: 30px;
+    text-align: center;
+}
+.box td 
+{
+    padding: 5px 10px 5px 10px;
+}
+.box td input
+{
+    width: 40px;
+
+}
+.border-shop
+{
+    width: 100%;
+    grid-area: giohang;
+}
+.clearfix
+{
+    margin-top: 10px;
+}
+.continue-shopping
+{
+    width: 110px;
+    height: 37px;
+    background-color: #333;
+    border: 0px;
+    color:white;
+    font-weight: 550;
+}
+.update-shopping
+{
+    width: 200px;
+    height: 37px;
+    border:0px;
+    background-color: #333;
+    color: white;
+    font-weight: 550;
+}
+.title-shop
+{
+    margin-top:20px;
+    margin-bottom: -25px;
+}
+.title-purchase
+{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.border-purchase
+{
+    grid-area: thanhtien;
+}
+.purchase-box
+{
+    border: 1px solid black;
+    width: 350px;
+    height: 105px;
+}
+.purchase-label
+{
+    display: flex;
+    justify-content: space-between;
+}
+.left
+{
+    display: flex;
+    justify-content: flex-start;
+
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-weight: bolder;
+    color: black;
+}
+.right
+{
+    display: flex;
+    justify-content: flex-end;
+    color: red;
+    padding-top: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+
+}
+.purchase-button-box
+{
+    padding:10px;
+    
+}
+.purchase-button
+{
+    border-color: red;
+    font-size: 16px;
+    color: white;
+    background-color: red;
+    width: 100%;
+    height: 50px;
+    font-weight: bolder;
+    border: 0px;
+}
+.title-p
+{
+    font-weight: bold;
+    font-size: 17px;
+}

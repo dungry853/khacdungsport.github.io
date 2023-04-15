@@ -13,8 +13,16 @@
       "default",
       {
         "ignore": [
-          "width: fit-content"
+          "width: fit-content",
+          "height: fit-content"
         ]
+      }
+    ],
+    "detect-css-reflows/composite": "off",
+    "axe/name-role-value": [
+      "default",
+      {
+        "button-name": "off"
       }
     ]
   }
