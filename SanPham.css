@@ -36,7 +36,7 @@
 .Pan-title label 
 {
     position: absolute;
-    left: 390px;
+    left: 370px;
     width: fit-content;
 }
 #show-Pan:checked + .Pan .Pan-checkbox 
@@ -54,7 +54,7 @@
 .Price-title label 
 {
     position: absolute;
-    left: 390px;
+    left: 370px;
     width: fit-content;
 }
 #show-Price:checked + .Price .Price-checkbox 

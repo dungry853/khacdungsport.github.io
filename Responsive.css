@@ -491,6 +491,220 @@
     {
         margin:auto;
     }
+
+    /*Product*/
+    div.main-Pan
+{
+  
+    grid-template-areas: 
+    "sidebar-Pan-L"
+    "img-Pan-m " 
+     "information-Pan"
+     "sidebar-Pan-R" 
+    "pro-inf";
+}
+    div.product-information
+{
+   
+    grid-template-areas: 
+    "main-pro"" sidebar-pro"
+    "information-pro";
+}
+    .img-Pan
+    {
+        width: 100%;
+    }
+    div.ContainerImgPan img
+    {
+        width: 100%;
+        height: 600px;
+    }
+    .Sidebar-L
+    {
+        width: 100%;
+        align-items: center;
+    }
+    div.Sidebar-L img 
+    {
+        width: 150px;
+    }
+    div.list-pro-Pan
+    {
+        width: 100%;
+        display: none;
+    }
+    div.list-pro-Pan img 
+    {
+        width: 100px ;
+        height: 100px;
+    }
+    p.title-Pan
+    {
+        font-size: 30px;
+    }
+    p.id-Pan
+    {
+        font-size: 20px;
+    }
+    p.Header-Pan
+    {
+        width: 100%;
+        font-size: 25px;
+    }
+    div.list-pan 
+    {
+        display: flex;
+        
+    }
+    div.list-pan p 
+    {
+        font-size: 25px;
+        margin-right: 50px;
+    }
+    div.list-pan img 
+    {
+        
+        width: 100px;
+        
+    }
+    div.choose-size-Pan
+    {
+        width: 100%;
+    }
+    p.choose-size
+    {
+        font-size: 22px;
+    }
+    div.choose-size-Pan a
+    {
+        font-size:20px;
+        padding-right:20px;
+    }
+    p.size
+    {
+        
+        font-size:25px;
+        
+    }
+    ul.size-number li
+    {
+        
+        width: 60px;
+        height: 30px;
+    }
+    div.Inventory p
+    {
+        font-size: 25px;
+    }
+    div.AddToCart 
+    {
+        height: 58px;
+        width: 230px;
+    }
+    div.shop-system
+    {
+        width: 100%;
+    }
+    div.shop-system h2 
+    {
+        font-size: 25px;
+    }
+    select#title-shop-system
+    {
+        height: 50px;
+        font-size: 25px;
+    }
+    div.shop-system p
+    {
+        font-size: 23px;
+    }
+    
+    div.service
+    {
+        width: 700px;
+    }
+    div.service h3
+    {
+        font-size: 25px;
+    }
+    div.service p 
+    {
+        font-size: 23px;
+    }
+    div.express-delivery img
+    {
+        margin:auto;
+    }
+    div.box-express-delivery b
+    {
+        font-size: 20px;
+    }
+    div.box-express-delivery p 
+    {
+        font-size: 20px;
+    }
+    div.change-size img
+    {
+       
+        margin-left: 50px;
+        
+    }
+    div.box-change-size b
+    {
+        font-size: 20px;
+    }
+    div.box-change-size p 
+    {
+        font-size: 20px;
+    }
+    div.COD-delivery img 
+    {
+        margin-left: 50px;
+        
+    }
+    div.box-COD-delivery b
+    {
+        font-size: 20px;
+    }
+    div.box-COD-delivery p 
+    {
+        font-size: 20px;
+    }
+    div.support-online img
+    {
+        margin-left:50px;
+    }
+    div.box-support-online b
+    {
+        font-size: 20px;
+    }
+    div.box-support-online p 
+    {
+        font-size: 20px;
+        
+    }
+    div.img-product-information
+    {
+        width: 100%;
+    }
+    div.img-sidebar
+    {
+        margin-right: 0px;
+        align-items: center;
+    }
+    div.Information-son p
+    {
+        margin-top: 15px;
+        font-size: 25px;
+    }
+    div.box-pro b
+    {
+        font-size: 25px;
+    }
+    div.box-pro p
+    {
+        font-size: 25px;
+    }
 }
 
 /*Menu-Icon*/

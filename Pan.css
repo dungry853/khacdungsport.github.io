@@ -1,0 +1,437 @@
+#Content-Pan 
+{
+    grid-area: main;
+    display: grid; 
+    grid-template-areas:  
+    "title-Pan"
+    "content-Pan"
+    "Introduce-Pan";
+}
+.Header-Pan
+{
+    grid-area: title-Pan;
+    color: silver;
+    font-size: 14px;
+    color: #3e3e3e;
+}
+.main-Pan
+{
+    margin-top: 25px;
+    grid-area: content-Pan;
+    display: grid;
+    grid-template-areas: 
+    "sidebar-Pan-L img-Pan-m information-Pan sidebar-Pan-R"
+    "pro-inf pro-inf pro-inf pro-inf";
+}
+.Sidebar-L
+{
+    margin-right: 40px;
+    grid-area: sidebar-Pan-L;
+    display: flex;
+    flex-direction: column;
+}
+.Sidebar-L img
+{
+    border: 1px solid silver;
+    margin-top: 10px;
+    width: 60px;
+}
+.Infor-Pan
+{
+    grid-area: information-Pan;
+    padding-left: 30px;
+}
+.img-Pan
+{
+    grid-area: img-Pan-m;
+    display: grid;
+    grid-template-areas: 
+    "zoom-img"
+    "list-Pan";
+}
+.ContainerImgPan
+{
+    
+    
+    grid-area: zoom-img;
+}
+.ContainerImgPan img 
+{
+    width: 450px;
+    height: 450px;
+}
+.list-pro-Pan
+{
+    grid-area: list-Pan;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 10px
+}
+.list-pro-Pan img 
+{
+    border: 1px solid silver;
+    width: 60px;
+    height: 60px;
+    margin-right: 5px;
+    
+}
+.title-Pan
+{
+    color: #3e3e3e;
+    font-weight: bolder;
+    font-size: 20px;
+    margin: 0px 0px 10px;
+    
+}
+.id-Pan
+{
+    color: #333333 ;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.list-pan
+{
+    margin-bottom: 20px;
+}
+.list-pan img
+{
+    border: 1px solid silver;
+}
+.list-pan p
+{
+    color: #333333;
+    font-size: 18px;
+    
+
+    
+}
+.choose-size-Pan
+{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+.choose-size
+{
+    color: #333333;
+    
+    justify-content: flex-start;
+}
+.size-Pan 
+{
+    width: 80%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.size 
+{
+    
+    font-size: 17px;
+    color:#333333;
+}
+.size-number
+{
+    display: flex;
+    
+}
+.size-number li 
+{
+    margin: 0px 2px 0px 2px;
+    border: 1px solid silver;
+    width: 40px;
+    height: 25px;
+    text-align: center;
+    padding: 3px;
+   
+}
+.size-number li:hover
+{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+.Inventory
+{
+    margin-top:10px;
+    
+}
+.Inventory p 
+{
+    font-size: 18px;
+    color: #333333;
+}
+.AddToCart
+{
+    height: 48px;
+    width: 210px;
+    background-color: #7DC558;
+    display: flex;
+    margin-top: 10px;
+}
+.AddToCart p
+{
+    margin: auto;
+}
+.AddToCart i
+{
+    
+    font-size: 25px;
+    color: white;
+    padding: 10px;
+}
+.AddToCart button 
+{
+    border: 0px;
+    font-size: 18px;
+    width:100%;
+    height: 100%;
+    background-color: transparent;
+    color: white;
+    margin: auto;
+}
+.AddToCart button:hover
+{
+    background-color:green;
+}
+.shop-system
+{
+    width: 70%;
+}
+.shop-system h2
+{
+    color: #3e3e3e;
+    font-size: 20px;
+    margin-top:50px;
+}
+#title-shop-system
+{
+    margin-top: 5px;
+    width: 100%;
+    height: 30px;
+}
+#title-shop-system:hover
+{
+    box-shadow: 1px 0px 4px 2px aquamarine;
+}
+.shop-system p
+{
+    margin-top: 10px;
+    border-bottom: 1px solid silver;
+    
+    width: 100%;
+    
+}
+.Sidebar-R
+{
+    grid-area: sidebar-Pan-R;
+    width: 68%;
+}
+.service
+{
+    width: 100%;
+    text-align: center;
+    background-color: #f6f6f6;
+    padding: 10px; 
+    border-top: 1px solid silver;
+}
+.service h3
+{
+    color: orange;
+    font-size: 14px;
+}
+.service p
+{
+    margin-top: 5px;
+    color:#666;
+    font-size: 12px;
+}
+.express-delivery
+{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    padding: 5px;
+}
+.express-delivery img 
+{
+    width: 32px;
+    height: 32px;
+    margin: auto;
+}
+.box-express-delivery b
+{
+    color: #3e3e3e;
+    font-size: 12px;
+    
+}
+.box-express-delivery p
+{
+    color:#666;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.change-size
+{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    padding: 5px;
+}
+.change-size img 
+{
+    width: 32px;
+    height: 32px;
+    margin: auto;
+}
+.change-size b
+{
+    color: #3e3e3e;
+    font-size: 12px;
+    
+}
+.change-size p 
+{
+    color:#666;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.COD-delivery
+{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    padding: 5px;
+}
+.COD-delivery img 
+{
+    width: 32px;
+    height: 32px;
+    margin: auto;
+}
+.COD-delivery b 
+{
+    color: #3e3e3e;
+    font-size: 12px;
+    
+}
+.COD-delivery p
+{
+    color:#666;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.support-online
+{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    padding: 5px;
+}
+.support-online img
+{
+    width: 32px;
+    height: 32px;
+    margin:auto;
+}
+.support-online b
+{
+    color: #3e3e3e;
+    font-size: 12px;
+}
+.support-online p
+{
+    color:#666;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.product-information
+{
+    margin-top: 20px;
+    grid-area: pro-inf;
+    display: grid;
+    grid-template-areas: 
+    "main-pro sidebar-pro"
+    "information-pro sidebar-pro";
+}
+.img-product-information
+{
+    width: 80%;
+    grid-area: main-pro;
+}
+.img-product-information img 
+{
+    width: 100%;
+}
+.img-sidebar
+{
+    
+    grid-area: sidebar-pro;
+    display: flex;
+    flex-direction: column;
+    
+}
+.img-sidebar img 
+{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    
+}
+.img-sidebar img:hover
+{
+    transform:translateX(5px);
+    
+    
+    transition: all 0.4s ease-in-out;
+    box-shadow: 0px 2px 3px 4px gray;
+}
+.Information 
+{
+    
+    padding: 50px;
+    margin-top:40px;
+    grid-area: information-pro;
+    width: 100%;
+    height: auto-fit;
+    border: 1px solid silver;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.Information-son
+{
+    width: 100%;
+    text-align: start;
+}
+.Information h1
+{
+    color:#3e3e3e;
+}
+.Information a
+{
+    color: #3e3e3e;
+}
+.Information a h2:hover
+{
+    color:aqua;
+}
+.box-pro
+{
+    margin-top: 10px;
+   
+    width: 100%;
+    text-align: start;
+}
+.box-pro p a:hover
+{
+    color:aquamarine;
+}
+.price-pro
+{
+    font-size: 32px;
+    color:#b2008d;
+    margin-bottom: 20px;
+}
