@@ -25,10 +25,14 @@
 }
 .Sidebar-L
 {
-    margin-right: 40px;
+    
     grid-area: sidebar-Pan-L;
     display: flex;
     flex-direction: column;
+}
+.Sidebar-L img:active
+{
+    border-color: red;
 }
 .Sidebar-L img
 {

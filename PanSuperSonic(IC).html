@@ -11,6 +11,7 @@
       <link rel="stylesheet" href="https://fonts.google.com/">
     <link rel="stylesheet" href="Responsive.css">
     <link rel="stylesheet" href="Pan.css">
+    <link rel="shortcut icon" type="image/png" href="https://theme.hstatic.net/1000169410/1000960360/14/favicon.png?v=307"/>
 </head>
 <body>
     <div id="TrangChu">
@@ -58,15 +59,15 @@
             <p class="Header-Pan">Trang chủ > Giày sân cỏ nhân tạo > Giày đá banh đế bằng Pan Super Sonic II (IC)</p>
             <div class="main-Pan">
                 <div class="Sidebar-L">
-                    <img src="https://product.hstatic.net/1000169410/product/trang_c0fd173995224fe28e3643384e7ffc9d_small.jpg" alt="">
-                    <img src="https://product.hstatic.net/1000169410/product/trang_3_4ba0223a10ef4c6ba69a49f5735531a4_small.jpg" alt="">
-                    <img src="https://product.hstatic.net/1000169410/product/trang_1_980aa15aafda47edb51b95a65c850094_small.jpg" alt="">
-                    <img src="https://product.hstatic.net/1000169410/product/trang_2_24595162599d40baae4f7e46bf0a93eb_small.jpg" alt="">
-                    <img src="https://product.hstatic.net/1000169410/product/trang_4_1882f069c39043b49c5a2fcab01b8dde_small.jpg" alt="">
+                    <img id="img1" src="https://product.hstatic.net/1000169410/product/trang_c0fd173995224fe28e3643384e7ffc9d_small.jpg" alt="">
+                    <img id="img2" src="https://product.hstatic.net/1000169410/product/trang_3_4ba0223a10ef4c6ba69a49f5735531a4_small.jpg" alt="">
+                    <img id="img3" src="https://product.hstatic.net/1000169410/product/trang_1_980aa15aafda47edb51b95a65c850094_small.jpg" alt="">
+                    <img id="img4" src="https://product.hstatic.net/1000169410/product/trang_2_24595162599d40baae4f7e46bf0a93eb_small.jpg" alt="">
+                    <img id="img5" src="https://product.hstatic.net/1000169410/product/trang_4_1882f069c39043b49c5a2fcab01b8dde_small.jpg" alt="">
                 </div>
                 <div class="img-Pan">
                     <div class="ContainerImgPan">
-                        <img src="https://product.hstatic.net/1000169410/product/trang_c0fd173995224fe28e3643384e7ffc9d_grande.jpg" alt="">
+                        <img id="ContainerImgPan-01" src="https://product.hstatic.net/1000169410/product/trang_c0fd173995224fe28e3643384e7ffc9d_grande.jpg" alt="">
                     </div>
                     <div class="list-pro-Pan">
                         <img src="https://product.hstatic.net/1000169410/product/trang_c0fd173995224fe28e3643384e7ffc9d_thumb.jpg" alt="">
@@ -243,6 +244,37 @@
             </ul>
         </div>
     </div>
-</body>
+<script> const ContainerPanPicture = document.getElementById("ContainerImgPan-01");
+    const Img01 = document.getElementById("img1")
+    const Img02 = document.getElementById("img2")
+    const Img03 = document.getElementById("img3")
+    const Img04 = document.getElementById("img4")
+    const Img05 = document.getElementById("img5")
+    Img02.addEventListener("click",function()
+        {
+            if (Img02.src === "https://product.hstatic.net/1000169410/product/trang_3_4ba0223a10ef4c6ba69a49f5735531a4_small.jpg")
+            ContainerPanPicture.src="https://product.hstatic.net/1000169410/product/trang_3_4ba0223a10ef4c6ba69a49f5735531a4_grande.jpg"
+        })
+        Img01.addEventListener("click",function()
+        {
+            if (Img01.src === "https://product.hstatic.net/1000169410/product/trang_c0fd173995224fe28e3643384e7ffc9d_small.jpg")
+            ContainerPanPicture.src="https://product.hstatic.net/1000169410/product/trang_c0fd173995224fe28e3643384e7ffc9d_grande.jpg"
+        })
+        Img03.addEventListener("click",function()
+        {
+            if (Img03.src === "https://product.hstatic.net/1000169410/product/trang_1_980aa15aafda47edb51b95a65c850094_small.jpg")
+            ContainerPanPicture.src="https://product.hstatic.net/1000169410/product/trang_1_980aa15aafda47edb51b95a65c850094_grande.jpg"
+        })
+        Img04.addEventListener("click",function()
+        {
+            if (Img04.src === "https://product.hstatic.net/1000169410/product/trang_2_24595162599d40baae4f7e46bf0a93eb_small.jpg")
+            ContainerPanPicture.src="https://product.hstatic.net/1000169410/product/trang_2_24595162599d40baae4f7e46bf0a93eb_grande.jpg"
+        })
+        Img05.addEventListener("click",function()
+        {
+            if (Img05.src === "https://product.hstatic.net/1000169410/product/trang_4_1882f069c39043b49c5a2fcab01b8dde_small.jpg")
+            ContainerPanPicture.src="https://product.hstatic.net/1000169410/product/trang_4_1882f069c39043b49c5a2fcab01b8dde_grande.jpg"
+        })
+</script>
 </body>
 </html>
