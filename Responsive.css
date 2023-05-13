@@ -334,6 +334,7 @@
     /*Content*/
     #Content
     {
+        padding: 10px;
         width: 100%;
         grid-template-columns: repeat(1,minmax(100px,1fr));
         grid-template-areas: 
@@ -407,6 +408,11 @@
     
 
     /*SanPham*/
+    .Left-Content
+    {
+        
+        width: 100%;
+    }
     .Title-dropdown {
 
         display: flex;
@@ -431,27 +437,33 @@
     }
     .Pan 
     {
-        
+        width: 100%;
     }
-
-    /*Login*/
-    
-    #Main div
-    {
-          width: 100%;
-    }
-    #Main
+    .Price 
     {
         width: 100%;
     }
-    .Username
+    .Shoes-Size 
     {
-        margin: 0px 0px 5px 0px;
+        width: 100%;
     }
-    .Password
+    .Pan-title label 
     {
-        margin: 0px 0px 5px 0px;
+        left: 300px;
     }
+    .Price-title label 
+    {
+        left: 300px;
+    }
+    .Shoes-Size-Title label
+    {
+        left: 110px;
+        position: relative;
+    }
+    /*Login*/
+    
+   
+  
     .req_pass
     {
         width: 100%;
@@ -471,6 +483,10 @@
     }
 
     /* Shop */
+    div.border-shop
+    {
+        padding: 10px;
+    }
    div#Content-shop
     {
         padding-right:0px;
