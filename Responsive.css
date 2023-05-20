@@ -478,7 +478,11 @@
     {
         width: 60%
     }
-   
+    .Login-Button
+    {
+        
+        margin-right: 30px;
+    }
     .Register-Button 
     {
         margin-right: 30px;
