@@ -399,7 +399,7 @@
 }
 #Footer
 {
-    position: static;
+   
     display: flex;
     background-color: black;
     width: 100%;
